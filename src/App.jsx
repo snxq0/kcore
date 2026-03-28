@@ -540,10 +540,8 @@ export default function App() {
       <nav className="sticky top-0 z-40 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50">
         <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => setCurrentPage('library')}>
-            <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold shadow-lg shadow-indigo-600/20">
-              <img src="/kcore.png" alt="" />
-            </div>
-            <span className="font-bold text-lg tracking-tight hidden sm:block">KCORE<span className=" ml-5 text-indigo-500">by Isaiev</span></span>
+            
+            <span className="font-bold text-lg tracking-tight hidden sm:block">KCORE</span>
           </div>
 
           <div className="flex items-center gap-4">
